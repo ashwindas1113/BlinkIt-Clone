@@ -1,0 +1,206 @@
+.body{
+    background-color: #ffffff;
+}
+
+.vertical-line{
+  height: 125px;
+  border: 1px solid gainsboro;
+}
+
+#serach_bar{
+    border: none;
+    width: 60%;
+    background-color: #f8f8f8;
+    padding: 10px 10px;
+    border-radius: 5px;
+    
+}
+
+.nav_delivery > h5{
+    font-family: 'Okra', Helvetica;
+}
+
+#serach_bar > input{
+    border: none;
+    width: 95%;
+    background-color: transparent;
+    
+}
+
+.categories{
+    width: 65%;
+    margin: auto;
+    padding: 5px;   
+}
+
+.my-cards{
+    width: 65%;
+    margin: auto;
+    padding: 10px;
+    overflow-x: scroll;
+    gap: 20px;
+    white-space: nowrap;    
+}
+
+.my-cards>img{
+    display: inline-block;
+}
+
+.timer{
+    font-size: 12px;
+    background-color: #f8f8f8;
+    width: fit-content;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.item-weight{
+    font-size: 15px;
+}
+
+
+.container2{
+    width: 100%;
+    overflow-x: scroll;
+    gap: 15px;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.card1{
+    width: 200px;
+    display: inline-block;
+    flex: 0 0 auto;
+}
+
+footer{
+    width: 65%;
+    margin: auto;
+
+}
+
+.end{
+    background-color: #ffffff;
+}
+
+.icon{
+    width : 50px;
+    height : 50px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* .row2>div>p{
+    width: 70%;
+} */
+
+.row2{
+    display: flex;
+    justify-content: spbetween;
+    align-items: center;
+}
+
+.row2>div{
+    margin: 0 25px;
+}
+
+.download-section>p{
+    flex-shrink: 0;
+}
+
+.table-1{
+    flex: 1;
+}
+
+.table-2{
+    flex: 2;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    color: #9a9a9a; 
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .vertical-line{
+        display: none;
+    }
+
+    #serach_bar{
+        width: 100%;
+    }
+
+    #serach_bar>input{
+        width: 90%;
+    }
+
+    .hero_section>img{
+        display: none;
+    }
+
+    .my-cards{
+        margin-top: 20px;
+        width: 90%;
+    }
+
+    .categories{
+        width: 90%;
+        padding-left: 5px;
+    }
+
+    .row2{
+        flex-direction: column;
+    }
+
+    .row2 > .download-section{
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    .row2 > .social-icons   {
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .row2 > div > p{
+        width: 100%;
+    }
+
+    .row1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    .row3{
+        text-align: justify;
+    }
+
+    .table-1{
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .table-2{
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    td{
+        text-align: center;
+        font-size: 10px;
+    }
+
+
+
+
+
+}
